@@ -3,36 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://baresi48.github.io/2017/12/13/%E5%8D%87%E7%BA%A7-bash-on-win10/</loc>
-    <lastmod>2017-12-13T22:18:13+08:00</lastmod>
+    <loc>https://baresi48.github.io/2019/06/05/git-tutorial/</loc>
+    <lastmod>2019-06-05T23:15:18+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://baresi48.github.io/tags/development/</loc>
+    <lastmod>2019-06-05T23:15:18+08:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://baresi48.github.io/tags/linux/</loc>
-    <lastmod>2017-12-13T22:18:13+08:00</lastmod>
+    <lastmod>2019-06-05T23:15:18+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://baresi48.github.io/post/</loc>
-    <lastmod>2017-12-13T22:18:13+08:00</lastmod>
+    <lastmod>2019-06-05T23:15:18+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://baresi48.github.io/tags/</loc>
-    <lastmod>2017-12-13T22:18:13+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://baresi48.github.io/tags/web/</loc>
-    <lastmod>2017-12-13T22:18:13+08:00</lastmod>
+    <lastmod>2019-06-05T23:15:18+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://baresi48.github.io/</loc>
+    <lastmod>2019-06-05T23:15:18+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://baresi48.github.io/2017/12/13/%E5%8D%87%E7%BA%A7-bash-on-win10/</loc>
+    <lastmod>2017-12-13T22:18:13+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://baresi48.github.io/tags/web/</loc>
     <lastmod>2017-12-13T22:18:13+08:00</lastmod>
     <priority>0</priority>
   </url>

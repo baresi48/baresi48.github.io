@@ -5,32 +5,32 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title> 升级 bash on win10   &middot; 愿有岁月可回首</title>
+  <title> Git Tutorial   &middot; 愿有岁月可回首</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<meta name="description" content="将 bash on win10 从14.04LTS 升级到 16.04LTS" />
+<meta name="description" content="简单的Git连接本地服务器指南" />
 
-<meta name="keywords" content="Web, Linux, ">
+<meta name="keywords" content="Development, Linux, ">
 
 
-<meta property="og:title" content=" 升级 bash on win10   &middot; 愿有岁月可回首 ">
+<meta property="og:title" content=" Git Tutorial   &middot; 愿有岁月可回首 ">
 <meta property="og:site_name" content="愿有岁月可回首"/>
-<meta property="og:url" content="https://baresi48.github.io/2017/12/13/%E5%8D%87%E7%BA%A7-bash-on-win10/" />
+<meta property="og:url" content="https://baresi48.github.io/2019/06/05/git-tutorial/" />
 <meta property="og:locale" content="zh-CN">
 
 
 <meta property="og:type" content="article" />
-<meta property="og:description" content="将 bash on win10 从14.04LTS 升级到 16.04LTS"/>
-<meta property="og:article:published_time" content="2017-12-13T22:18:13&#43;08:00" />
-<meta property="og:article:modified_time" content="2017-12-13T22:18:13&#43;08:00" />
+<meta property="og:description" content="简单的Git连接本地服务器指南"/>
+<meta property="og:article:published_time" content="2019-06-05T23:15:18&#43;08:00" />
+<meta property="og:article:modified_time" content="2019-06-05T23:15:18&#43;08:00" />
 
   
     
-<meta property="og:article:tag" content="Web">
+<meta property="og:article:tag" content="Development">
     
 <meta property="og:article:tag" content="Linux">
     
@@ -42,20 +42,20 @@
   {
     "@context": "http://schema.org",
     "@type": "Article",
-    "headline": " 升级 bash on win10 ",
+    "headline": " Git Tutorial ",
     "author": {
       "@type": "Person",
       "name": "HuaZhen"
     },
-    "datePublished": "2017-12-13",
-    "description": "将 bash on win10 从14.04LTS 升级到 16.04LTS",
-    "wordCount":  16 
+    "datePublished": "2019-06-05",
+    "description": "简单的Git连接本地服务器指南",
+    "wordCount":  78 
   }
 </script>
 
 
 
-<link rel="canonical" href="https://baresi48.github.io/2017/12/13/%E5%8D%87%E7%BA%A7-bash-on-win10/" />
+<link rel="canonical" href="https://baresi48.github.io/2019/06/05/git-tutorial/" />
 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://baresi48.github.io/touch-icon-144-precomposed.png">
 <link href="https://baresi48.github.io/favicon.png" rel="icon">
@@ -170,19 +170,19 @@
 
 <article id="main-content" class="container main_content single">
   <header class="container hat">
-  <h1> 升级 bash on win10 
+  <h1> Git Tutorial 
 </h1>
 
   <div class="metas">
-<time datetime="2017-12-13">13 Dec, 2017</time>
+<time datetime="2019-06-05">5 Jun, 2019</time>
 
 
   
   &middot; Read in about 1 min
-  &middot; (16 Words)
+  &middot; (78 Words)
   <br>
   
-<a class="label" href="https://baresi48.github.io/tags/web">Web</a>
+<a class="label" href="https://baresi48.github.io/tags/development">Development</a>
 
 <a class="label" href="https://baresi48.github.io/tags/linux">Linux</a>
 
@@ -193,12 +193,70 @@
 </header>
 
   <div class="container content">
-  <p>通过命令行可以直接将 bash on win10 从14.04LTS 升级到 16.04LTS：</p>
+  
 
-<pre><code class="language-shell">cat  /etc/issue   #确认系统当前版本
-sudo apt update
-sudo do-release-upgrade  #版本更新
-</code></pre>
+<h2 id="1-客户端安装">1 客户端安装</h2>
+
+<h3 id="1-1-windows">1.1 Windows</h3>
+
+<ol>
+<li><a href="https://tortoisegit.org" title="tortoisegit">TortoiseGit</a>：大部分人都用过TortoiseSVN，同样它也有Git版，仅支持 Windows 系统</li>
+<li><a href="https://www.sourcetreeapp.com" title="SourceTree">SourceTree</a>：方便易用的客户端，同时支持 Windows 和 Mac 操作系统，Bitbucket官方推荐，除占用资源相对较高外几乎没什么缺点</li>
+<li>例如VScode等很多IDE都带有自集成的GIT功能，稍加配置后即可使用</li>
+</ol>
+
+<h3 id="1-2-linux">1.2 Linux</h3>
+
+<p>命令行才是 *nix 的灵魂！</p>
+
+<blockquote>
+<p>apt install git</p>
+</blockquote>
+
+<h3 id="1-3-mac-os">1.3 Mac OS</h3>
+
+<p>仅供参考：<a href="http://sourceforge.net/projects/git-osx-installer/">git-osx-installer</a></p>
+
+<h2 id="2-开始使用">2 开始使用</h2>
+
+<p>考虑到用 *nix 系统的都是高手，应该不需要额外指导。故以下均以 Windows 系统 + <a href="https://tortoisegit.org" title="tortoisegit">TortoiseGit</a> 为例进行说明。</p>
+
+<h3 id="2-1-下载并安装-git">2.1 下载并安装 Git</h3>
+
+<p>推荐：<a href="https://gitforwindows.org">Git for Windows</a></p>
+
+<h3 id="2-2-安装-tortoisegit">2.2 安装 TortoiseGit</h3>
+
+<p>略。（官网上有汉化包，是否安装看个人喜好。）</p>
+
+<h3 id="2-3-配置密钥">2.3 配置密钥</h3>
+
+<p>在windows开始菜单中，找到刚才安装的TortoiseGit目录，其中有名为 PuttyGen 的工具。</p>
+
+<ol>
+<li>点击运行</li>
+<li>点击“Generate”按钮，鼠标在进度条位置==来回移动==直到进度条完毕，就会自动生一个随机的key</li>
+<li>将“Key Comment”中内容改为自己姓名的拼音全拼</li>
+<li>点击“Save public key”，保存为文件，并发送给Git管理员</li>
+<li>点击“Save private key”，保存为文件，自行保存后备用</li>
+</ol>
+
+<h3 id="2-4-取出git库">2.4 取出Git库</h3>
+
+<ol>
+<li>资源管理器，在准备放置Git库目录处，鼠标右击，菜单中选择 “Git 克隆”，在跳出的界面中按如下内容填写</li>
+<li>“URL” ： git@172.16.1.248:/home/git/source.git</li>
+<li>选中“加载Putty密钥”：选择刚才PuttyGen生成的私钥文件</li>
+<li>点击确定，取出远程的Git库</li>
+</ol>
+
+<h2 id="3-git-基本操作">3 GIT 基本操作</h2>
+
+<ol>
+<li><a href="https://www.git-tower.com/blog/git-cheat-sheet/">Git Cheat Sheet</a>，可下载打印</li>
+<li><a href="https://git-scm.com/book/zh/v2">Git官方文档中文版</a></li>
+<li><a href="https://www.liaoxuefeng.com/wiki/896043488029600">浅显易懂的Git教程</a></li>
+</ol>
 
 </div>
 
@@ -210,15 +268,11 @@ sudo do-release-upgrade  #版本更新
   
 
     
-    <a class="prev" href="https://baresi48.github.io/2017/11/23/%E8%BD%AC%E8%B4%B4%E6%97%B6%E7%A9%BA%E9%97%A8%E5%90%8E%E4%BA%8C%E5%8D%81%E5%B9%B4/" title="【转贴】时空门后二十年">
+    <a class="prev" href="https://baresi48.github.io/2017/12/13/%E5%8D%87%E7%BA%A7-bash-on-win10/" title=" 升级 bash on win10 ">
       Previous
     </a>
     
 
-    
-    <a class="next" href="https://baresi48.github.io/2019/06/05/git-tutorial/" title=" Git Tutorial ">
-      Next
-    </a>
     
 
   
