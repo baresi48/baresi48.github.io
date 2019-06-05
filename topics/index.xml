@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Topics on 愿有岁月可回首</title>
+    <link>https://baresi48.github.io/topics/</link>
+    <description>Recent content in Topics on 愿有岁月可回首</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>hua_zhen@foxmail.com (HuaZhen)</managingEditor>
+    <webMaster>hua_zhen@foxmail.com (HuaZhen)</webMaster>
+    
+	<atom:link href="https://baresi48.github.io/topics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

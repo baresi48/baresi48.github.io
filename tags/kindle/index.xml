@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kindle on 愿有岁月可回首</title>
+    <link>https://baresi48.github.io/tags/kindle/</link>
+    <description>Recent content in Kindle on 愿有岁月可回首</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>hua_zhen@foxmail.com (HuaZhen)</managingEditor>
+    <webMaster>hua_zhen@foxmail.com (HuaZhen)</webMaster>
+    <lastBuildDate>Wed, 27 Sep 2017 16:18:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://baresi48.github.io/tags/kindle/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kindle “您已达到本内容的剪贴上限” 对策</title>
+      <link>https://baresi48.github.io/2017/09/27/kindle-%E6%82%A8%E5%B7%B2%E8%BE%BE%E5%88%B0%E6%9C%AC%E5%86%85%E5%AE%B9%E7%9A%84%E5%89%AA%E8%B4%B4%E4%B8%8A%E9%99%90-%E5%AF%B9%E7%AD%96/</link>
+      <pubDate>Wed, 27 Sep 2017 16:18:00 +0800</pubDate>
+      <author>hua_zhen@foxmail.com (HuaZhen)</author>
+      <guid>https://baresi48.github.io/2017/09/27/kindle-%E6%82%A8%E5%B7%B2%E8%BE%BE%E5%88%B0%E6%9C%AC%E5%86%85%E5%AE%B9%E7%9A%84%E5%89%AA%E8%B4%B4%E4%B8%8A%E9%99%90-%E5%AF%B9%E7%AD%96/</guid>
+      <description>一直用 KindleMate + Evernote 备份kindle 阅读的标注和笔记。结果，终于遇到了传说中的“您已达到本内容的剪贴上限”。
+然后搜索了一圈，都没什么好的解决办法，要么破解，要么手打。自己摸索了下，发现kindle能用邮件方式把标注和笔记发到邮箱，也就可以解决这个上限问题了。
+步骤很简单，不贴图了，纯文字简单说下。
+ 在kindle里打开书籍 点击上方出现菜单栏 点击右上角搜索框右边的三个点号，出现菜单 点击“笔记”，会显示全部的标注与笔记 重点来了，最下方有个“导出”，点击后会把标注发邮件到你kindle的绑定邮箱，带有两种格式的附件：csv，pdf。 然后就不用多说了吧  （最后说下，超出标注上限的是 蒋勋的《说宋词》跟费孝通的《乡土中国》两本书，都值得强烈推荐！</description>
+    </item>
+    
+  </channel>
+</rss>

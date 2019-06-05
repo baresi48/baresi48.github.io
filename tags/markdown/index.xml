@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on 愿有岁月可回首</title>
+    <link>https://baresi48.github.io/tags/markdown/</link>
+    <description>Recent content in Markdown on 愿有岁月可回首</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>hua_zhen@foxmail.com (HuaZhen)</managingEditor>
+    <webMaster>hua_zhen@foxmail.com (HuaZhen)</webMaster>
+    <lastBuildDate>Thu, 22 Sep 2016 14:05:18 +0800</lastBuildDate>
+    
+	<atom:link href="https://baresi48.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title> Bash on win10 Tips</title>
+      <link>https://baresi48.github.io/2016/09/22/bash-on-win10-tips/</link>
+      <pubDate>Thu, 22 Sep 2016 14:05:18 +0800</pubDate>
+      <author>hua_zhen@foxmail.com (HuaZhen)</author>
+      <guid>https://baresi48.github.io/2016/09/22/bash-on-win10-tips/</guid>
+      <description>1 Bash on win10 setting 注： 不建议改官方的apt源，一开始习惯性加了国内的源，结果各种出错。后来把/etc/apt/sources.list改回默认文件就又正常了。
+1.1 Cmder + Bash： Cmder启动命令行设置为：
+%windir%\system32\bash.exe ~ -cur_console:p1  1.2 Gcc  默认python 2.7.4 有python3.4 无gcc sudo apt-get install gcc &amp;gt; 默认为gcc 4.8.4  1.3 安装pip sudo apt-get install python-pip
+2 LocalNote 说明：基于命令行的Evernote本地客户端，支持win、Linux、MacOs。支持以Markdown格式写笔记。
+2.1 Install # sudo apt-get install python-lxml # sudo pip install localnote  2.2 $ localnote init #初始化当前目录为空目录 $ localnote notebook #设置同步到localnote的笔记本 $ localnote status #查看笔记状态 $ localnote pull #下载服务器笔记为本地文件 $ localnote push #上传本地笔记到服务器  3 Landslide 说明：基于Markdown格式文件生成演示用幻灯片。</description>
+    </item>
+    
+    <item>
+      <title>基于Evernote &#43; Markdown的个人信息管理方案</title>
+      <link>https://baresi48.github.io/2016/05/24/%E5%9F%BA%E4%BA%8Eevernote---markdown%E7%9A%84%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E6%96%B9%E6%A1%88/</link>
+      <pubDate>Tue, 24 May 2016 23:11:13 +0800</pubDate>
+      <author>hua_zhen@foxmail.com (HuaZhen)</author>
+      <guid>https://baresi48.github.io/2016/05/24/%E5%9F%BA%E4%BA%8Eevernote---markdown%E7%9A%84%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E6%96%B9%E6%A1%88/</guid>
+      <description>基于Evernote + Markdown的个人信息管理方案 0 需求分析 0.1 日常需求 自己的日常信息或笔记主要有这么几类：
+ 工作记录、工作文档 读书笔记、摘抄 学习笔记 各种信息记录，大到自己的零花钱记账、小到网上看到的CPU评测  0.2 原有状况 原本的工具主要是：
+ Evernote： 解决绝大部分工作或私人的笔记、记录、摘抄；优点在于云端同步，但是需要分享或者递送就不行，格式上也存在很多限制 WPS Office(Word\PPT\Excel)、 MS Visio：工作文件，功能肯定没问题，但是臃肿庞大 其它零散工具（场景）：日志发布在QQ空间、内网分享文件靠QQ或邮件、办公笔记本跟家里台机之间的Bt sync同步、等等  原有方案的核心问题：
+ Evernote 以外的软件都很大很臃肿，且大部分为收费软件 MS office 格式文件编写的时候，很多时间和精力会分散在格式排版上而非内容本身 不便于版本管理，历史版本往往只能在硬盘里留一份拷贝来备查 信息分散：有文件、有知识库、有网络工具……无法统一备份、管理与查询  0.3 Evernote 是核心但不是本文重点 知识库管理必然以 Evernote 为核心，但是关于 Evernote 的介绍起码能写本书，比如《Evernote 超效率数字笔记》：
+ https://yunpan.cn/cSBcxLsABiD3y 访问密码 b946
+ 0.4 为什么要用 Markdown 考虑在Evernote的基础上加入Markdown作为解决方案，主要基于 Markdown 大量的优势：
+ 本质为 txt 纯文本  轻量、简洁 任何文本编辑器都能打开编辑查看 便于历史版本管理，不需要电脑里存一堆后面跟着V1、V2……的同名文件 编写时只需要集中精力关注内容，无需关注格式与排版，各个编辑器自带css会渲染生成格式，不满意自定义即可 跨平台支持极佳，OS X 貌似目前支持的最好, Linux/Win 也不差</description>
+    </item>
+    
+    <item>
+      <title> landslide @ bash on win10 </title>
+      <link>https://baresi48.github.io/2016/05/24/landslide--bash-on-win10/</link>
+      <pubDate>Tue, 24 May 2016 22:59:13 +0800</pubDate>
+      <author>hua_zhen@foxmail.com (HuaZhen)</author>
+      <guid>https://baresi48.github.io/2016/05/24/landslide--bash-on-win10/</guid>
+      <description>1 bash on win10 注： 不建议改官方的apt源，一开始习惯性加了国内的源，结果各种出错。后来把/etc/apt/sources.list改回默认文件就又正常了。
+ 默认python 2.7.4 有python3.4 无gcc  sudo apt-get install gcc   默认为gcc 4.8.4
+ 2 python tips 安装pip sudo apt-get install python-pip  3 Landslide 3.1 安装landslide sudo pip install landslide  3.2 生成演示文件 landslide file.md -i -o &amp;gt; name_you_like.html  3.3 参考教程  用Markdown写一个极客范儿的PPT  ​</description>
+    </item>
+    
+    <item>
+      <title> Hugo Tips </title>
+      <link>https://baresi48.github.io/2016/05/17/hugo-tips/</link>
+      <pubDate>Tue, 17 May 2016 22:59:13 +0800</pubDate>
+      <author>hua_zhen@foxmail.com (HuaZhen)</author>
+      <guid>https://baresi48.github.io/2016/05/17/hugo-tips/</guid>
+      <description>设置disqus 其实很简单，hugo 文件夹根目录下的全局设定文件 config.toml 里设置 disqusShortname 即可
+# Enable Disqus integration disqusShortname = &amp;quot;xxxxx&amp;quot;  只是这个 disqusShortname 其实指的不是disqus的账号名，而是 add a newsite to disqus 里设置的名称。 这里折腾了好久……
+自动增加TOC（大纲视图） 在选中的 theme 的 layouts/_default/single.html 文件的合适位置加上：
+ &amp;lt;div id=&amp;quot;toc&amp;quot; class=&amp;quot;well col-md-4 col-sm-6&amp;quot;&amp;gt; {{ .TableOfContents }} &amp;lt;/div&amp;gt;  即可</description>
+    </item>
+    
+    <item>
+      <title>使用 BitBucket &#43; Hugo 构建免费 Blog</title>
+      <link>https://baresi48.github.io/2016/05/17/%E4%BD%BF%E7%94%A8-bitbucket---hugo-%E6%9E%84%E5%BB%BA%E5%85%8D%E8%B4%B9-blog/</link>
+      <pubDate>Tue, 17 May 2016 16:42:13 +0800</pubDate>
+      <author>hua_zhen@foxmail.com (HuaZhen)</author>
+      <guid>https://baresi48.github.io/2016/05/17/%E4%BD%BF%E7%94%A8-bitbucket---hugo-%E6%9E%84%E5%BB%BA%E5%85%8D%E8%B4%B9-blog/</guid>
+      <description>前言 先发半成品： baresi.bitbucket.org
+优点 ：
+ 免费！ 免费！免费！ 简洁的个人二级域名； 可适当冒充 Geek ； 自带版本控制，历史版本不需要像wod一样丑陋的在文件名后加 V1\V1.1来标识了（我工作文档里有个PPT文件名上有V16我会乱说）  1 为什么要折腾这么个玩意？ 1.1 要啥Blog ？ 时不时总会心血来潮写点东西，一开始的MSN Space已经关了，后来短暂用段时间新浪博客后，因为平时QQ挂的多，很多东西就写了扔在QQ空间了。
+但是，自从发现有Markdown这个好东西后，下意识的觉得自己的知识（文件）管理体系从此可以大一统了。
+于是，需要一个支持Markdown语法的Blog的需求，立刻提上了议事日程。
+当然，覆盖这个需求最理想的方法，直接用 简书 就一了百了了：界面清爽简洁、功能该有的都有、支持Markdown、有手机APP……
+但是，架不住我最近比较闲，就是想折腾怎么办呢？ （当然，非要给 简书 挑刺，就是没有一个简洁域名的个人主页吧。）
+1.2 为啥用 BitBucket （而不是 GitHub？） 用 GitHub 写书写 Blog 写论文写……几乎已经成为了一种时尚，随手一搜各种教程也是漫天遍野，但是 GitHub 鼓励开源，免费账户是不能建私有仓库的。作为一个想保留点隐私的穷人，觉得还是功能基本类似的 BitBucket 更适合我。
+再说了，大家都用 GitHub ，小众的选择有时候更显逼格啊。
+1.3 为啥用 Hugo （而不是 jekyll 或 octopress ？）  必须支持Markdown； Hugo 最简洁，不需要什么依赖包，生成速度也最快； GitHub Pages 原生支持 jekyll ，因此用 jekyll 可以理解，但是用 BitBucket 的话，大家都在同一起跑线了 不想再折腾 ruby 之类的环境（我是 python 粉）  2 构建流程 2.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on 愿有岁月可回首</title>
+    <link>https://baresi48.github.io/tags/linux/</link>
+    <description>Recent content in Linux on 愿有岁月可回首</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>hua_zhen@foxmail.com (HuaZhen)</managingEditor>
+    <webMaster>hua_zhen@foxmail.com (HuaZhen)</webMaster>
+    <lastBuildDate>Wed, 13 Dec 2017 22:18:13 +0800</lastBuildDate>
+    
+	<atom:link href="https://baresi48.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title> 升级 bash on win10 </title>
+      <link>https://baresi48.github.io/2017/12/13/%E5%8D%87%E7%BA%A7-bash-on-win10/</link>
+      <pubDate>Wed, 13 Dec 2017 22:18:13 +0800</pubDate>
+      <author>hua_zhen@foxmail.com (HuaZhen)</author>
+      <guid>https://baresi48.github.io/2017/12/13/%E5%8D%87%E7%BA%A7-bash-on-win10/</guid>
+      <description>通过命令行可以直接将 bash on win10 从14.04LTS 升级到 16.04LTS：
+cat /etc/issue #确认系统当前版本 sudo apt update sudo do-release-upgrade #版本更新  </description>
+    </item>
+    
+    <item>
+      <title> Bash on win10 Tips</title>
+      <link>https://baresi48.github.io/2016/09/22/bash-on-win10-tips/</link>
+      <pubDate>Thu, 22 Sep 2016 14:05:18 +0800</pubDate>
+      <author>hua_zhen@foxmail.com (HuaZhen)</author>
+      <guid>https://baresi48.github.io/2016/09/22/bash-on-win10-tips/</guid>
+      <description>1 Bash on win10 setting 注： 不建议改官方的apt源，一开始习惯性加了国内的源，结果各种出错。后来把/etc/apt/sources.list改回默认文件就又正常了。
+1.1 Cmder + Bash： Cmder启动命令行设置为：
+%windir%\system32\bash.exe ~ -cur_console:p1  1.2 Gcc  默认python 2.7.4 有python3.4 无gcc sudo apt-get install gcc &amp;gt; 默认为gcc 4.8.4  1.3 安装pip sudo apt-get install python-pip
+2 LocalNote 说明：基于命令行的Evernote本地客户端，支持win、Linux、MacOs。支持以Markdown格式写笔记。
+2.1 Install # sudo apt-get install python-lxml # sudo pip install localnote  2.2 $ localnote init #初始化当前目录为空目录 $ localnote notebook #设置同步到localnote的笔记本 $ localnote status #查看笔记状态 $ localnote pull #下载服务器笔记为本地文件 $ localnote push #上传本地笔记到服务器  3 Landslide 说明：基于Markdown格式文件生成演示用幻灯片。</description>
+    </item>
+    
+  </channel>
+</rss>
