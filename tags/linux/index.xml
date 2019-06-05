@@ -31,9 +31,7 @@ cat /etc/issue #确认系统当前版本 sudo apt update sudo do-release-upgrade
       <guid>https://baresi48.github.io/2016/09/22/bash-on-win10-tips/</guid>
       <description>1 Bash on win10 setting 注： 不建议改官方的apt源，一开始习惯性加了国内的源，结果各种出错。后来把/etc/apt/sources.list改回默认文件就又正常了。
 1.1 Cmder + Bash： Cmder启动命令行设置为：
-%windir%\system32\bash.exe ~ -cur_console:p1  1.2 Gcc  默认python 2.7.4 有python3.4 无gcc sudo apt-get install gcc &amp;gt; 默认为gcc 4.8.4  1.3 安装pip sudo apt-get install python-pip
-2 LocalNote 说明：基于命令行的Evernote本地客户端，支持win、Linux、MacOs。支持以Markdown格式写笔记。
-2.1 Install # sudo apt-get install python-lxml # sudo pip install localnote  2.2 $ localnote init #初始化当前目录为空目录 $ localnote notebook #设置同步到localnote的笔记本 $ localnote status #查看笔记状态 $ localnote pull #下载服务器笔记为本地文件 $ localnote push #上传本地笔记到服务器  3 Landslide 说明：基于Markdown格式文件生成演示用幻灯片。</description>
+%windir%\system32\bash.exe ~ -cur_console:p1  1.2 Gcc  默认python 2.7.4 有python3.4 无gcc sudo apt-get install gcc &amp;gt; 默认为gcc 4.8.4  1.3 安装pip ## 2 LocalNote 说明：基于命令行的Evernote本地客户端，支持win、Linux、MacOs。**支持以Markdown格式写笔记**。 ### 2.1 Install ```shell # sudo apt-get install python-lxml # sudo pip install localnote  2.2 $ localnote init #初始化当前目录为空目录 $ localnote notebook #设置同步到localnote的笔记本 $ localnote status #查看笔记状态 $ localnote pull #下载服务器笔记为本地文件 $ localnote push #上传本地笔记到服务器  3 Landslide 说明：基于Markdown格式文件生成演示用幻灯片。</description>
     </item>
     
   </channel>

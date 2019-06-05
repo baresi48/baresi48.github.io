@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>基于Evernote &#43; Markdown的个人信息管理方案  &middot; 愿有岁月可回首</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="description" content="基于Evernote &#43; Markdown构建的信息管理方案，一站式替代 Office、WPS、Blog……" />
+
+<meta name="keywords" content="Markdown, ">
+
+
+<meta property="og:title" content="基于Evernote &#43; Markdown的个人信息管理方案  &middot; 愿有岁月可回首 ">
+<meta property="og:site_name" content="愿有岁月可回首"/>
+<meta property="og:url" content="https://baresi48.github.io/2016/05/24/%E5%9F%BA%E4%BA%8Eevernote-markdown%E7%9A%84%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E6%96%B9%E6%A1%88/" />
+<meta property="og:locale" content="zh-CN">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content="基于Evernote &#43; Markdown构建的信息管理方案，一站式替代 Office、WPS、Blog……"/>
+<meta property="og:article:published_time" content="2016-05-24T23:11:13&#43;08:00" />
+<meta property="og:article:modified_time" content="2016-05-24T23:11:13&#43;08:00" />
+
+  
+    
+<meta property="og:article:tag" content="Markdown">
+    
+  
+
+  
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "基于Evernote \x2b Markdown的个人信息管理方案",
+    "author": {
+      "@type": "Person",
+      "name": "HuaZhen"
+    },
+    "datePublished": "2016-05-24",
+    "description": "基于Evernote \x2b Markdown构建的信息管理方案，一站式替代 Office、WPS、Blog……",
+    "wordCount":  239 
+  }
+</script>
+
+
+
+<link rel="canonical" href="https://baresi48.github.io/2016/05/24/%E5%9F%BA%E4%BA%8Eevernote-markdown%E7%9A%84%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E6%96%B9%E6%A1%88/" />
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://baresi48.github.io/touch-icon-144-precomposed.png">
+<link href="https://baresi48.github.io/favicon.png" rel="icon">
+
+<meta name="generator" content="Hugo 0.55.6" />
+
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link href='https://fonts.googleapis.com/css?family=Merriweather:300%7CRaleway%7COpen+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/highlight/default.css">
+
+  
+  
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'Your Google Analytics tracking code', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+</head>
+<body>
+  <main id="main-wrapper" class="container main_wrapper has-sidebar">
+    <header id="main-header" class="container main_header">
+  <div class="container brand">
+  <div class="container title h1-like">
+  <a class="baselink" href="https://baresi48.github.io">
+  愿有岁月可回首
+
+</a>
+
+</div>
+
+  
+<div class="container topline">
+  
+  Baresi&rsquo;s Blog
+
+
+</div>
+
+
+</div>
+
+  <nav class="container nav primary no-print">
+  
+
+<a class="homelink" href="https://baresi48.github.io">home</a>
+
+
+  
+<a href="https://baresi48.github.io/about">About</a>
+
+<a href="https://baresi48.github.io/post" title="Show list of posts">Posts</a>
+
+<a href="https://baresi48.github.io/tags" title="Show list of tags">Tags</a>
+
+
+</nav>
+
+<div class="container nav secondary no-print">
+  
+<a id="contact-link-email" class="contact_link" rel="me" aria-label="Email" href="mailto:hua_zhen@foxmail.com">
+  <span class="fa fa-envelope-square"></span></a>
+
+
+
+<a id="contact-link-github" class="contact_link" rel="me" aria-label="Github" href="https://github.com/baresi48">
+  <span class="fa fa-github-square"></span></a>
+
+
+
+<a id="contact-link-bitbucket" class="contact_link" rel="me" aria-label="Bitbucket" href="https://bitbucket.org/baresi">
+  <span class="fa fa-bitbucket-square"></span></a>
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+  
+
+</header>
+
+
+<article id="main-content" class="container main_content single">
+  <header class="container hat">
+  <h1>基于Evernote &#43; Markdown的个人信息管理方案
+</h1>
+
+  <div class="metas">
+<time datetime="2016-05-24">24 May, 2016</time>
+
+
+  
+  &middot; Read in about 2 min
+  &middot; (239 Words)
+  <br>
+  
+<a class="label" href="https://baresi48.github.io/tags/markdown">Markdown</a>
+
+
+
+</div>
+
+</header>
+
+  <div class="container content">
+  
+
+<h1 id="基于evernote-markdown的个人信息管理方案">基于Evernote + Markdown的个人信息管理方案</h1>
+
+<h2 id="0-需求分析">0 需求分析</h2>
+
+<h3 id="0-1-日常需求">0.1 日常需求</h3>
+
+<p>自己的日常信息或笔记主要有这么几类：</p>
+
+<ul>
+<li>工作记录、工作文档</li>
+<li>读书笔记、摘抄</li>
+<li>学习笔记</li>
+<li>各种信息记录，大到自己的零花钱记账、小到网上看到的CPU评测</li>
+</ul>
+
+<h3 id="0-2-原有状况">0.2 原有状况</h3>
+
+<p>原本的工具主要是：</p>
+
+<ul>
+<li><strong><a href="https://www.yinxiang.com/" title="印象笔记">Evernote</a></strong>： 解决绝大部分工作或私人的笔记、记录、摘抄；优点在于云端同步，但是需要分享或者递送就不行，格式上也存在很多限制</li>
+<li><strong>WPS Office(Word\PPT\Excel)、 MS Visio</strong>：工作文件，功能肯定没问题，但是臃肿庞大</li>
+<li>其它零散工具（场景）：日志发布在QQ空间、内网分享文件靠QQ或邮件、办公笔记本跟家里台机之间的Bt sync同步、等等</li>
+</ul>
+
+<p>原有方案的核心问题：</p>
+
+<ul>
+<li><a href="https://www.yinxiang.com/" title="印象笔记">Evernote</a> 以外的软件都很大很臃肿，且大部分为收费软件</li>
+<li>MS office 格式文件编写的时候，很多时间和精力会分散在格式排版上而非内容本身</li>
+<li>不便于版本管理，历史版本往往只能在硬盘里留一份拷贝来备查</li>
+<li>信息分散：有文件、有知识库、有网络工具……无法统一备份、管理与查询</li>
+</ul>
+
+<h3 id="0-3-evernote-是核心但不是本文重点">0.3 Evernote 是核心但不是本文重点</h3>
+
+<p>知识库管理必然以 <a href="https://www.yinxiang.com/" title="印象笔记">Evernote</a> 为核心，但是关于 <a href="https://www.yinxiang.com/" title="印象笔记">Evernote</a> 的介绍起码能写本书，比如《Evernote 超效率数字笔记》：</p>
+
+<blockquote>
+<p><a href="https://yunpan.cn/cSBcxLsABiD3y">https://yunpan.cn/cSBcxLsABiD3y</a>   访问密码 b946</p>
+</blockquote>
+
+<h3 id="0-4-为什么要用-markdown">0.4 为什么要用 Markdown</h3>
+
+<p>考虑在Evernote的基础上加入Markdown作为解决方案，主要基于 Markdown 大量的优势：</p>
+
+<ol>
+<li>本质为 txt 纯文本
+
+<ol>
+<li>轻量、简洁</li>
+<li>任何文本编辑器都能打开编辑查看</li>
+<li>便于历史版本管理，不需要电脑里存一堆后面跟着V1、V2……的同名文件</li>
+<li>编写时只需要集中精力关注内容，无需关注格式与排版，各个编辑器自带css会渲染生成格式，不满意自定义即可</li>
+<li>跨平台支持极佳，OS X 貌似目前支持的最好, Linux/Win 也不差<br /></li>
+</ol></li>
+<li>Markdown 格式具备广泛的兼容性与可扩展性，适用各种分享或协作场景
+
+<ol>
+<li>可导出生成： Doc、Pdf、Html、slideshow（幻灯片）、Jpg、Latex、Blog、Wiki、电子书（mobi、Epub）等等各种想得到想不到用得上用不上的文件格式；</li>
+<li>虽然是文本格式，但是语法却支持内嵌目录导航、待办事项列表、图片、表格、数学公式、流程图、甘特图等等各种常用富文本内容</li>
+<li><a href="https://www.yinxiang.com/" title="印象笔记">Evernote</a>、Chrome、GitHub、SublimeText、Atom等各路大佬的兼容与支持，<a href="www.jianshu.com" title="简书">简书</a> 、 <a href="https://maxiang.io/" title="马克飞象">马克飞象</a>等一系列小众但出色的平台或工具</li>
+<li>让人眼花缭乱选择困难的各种md编辑器，各种或强大或奇特的功能支撑，比如写书的可以用 GitBook，写论文的有 Scrivener，而MarkEditor支持直接发布Markdown格式文章到微信……</li>
+</ol></li>
+<li>Markdown 被称为最适合程序员的书写工具，越来越多的软件的帮助文件采用md格式。所以就算单纯为了装X也得学一下啊，正好掩饰自己已经不会写代码的问题</li>
+</ol>
+
+<p>Markdown的介绍或者说教程网上随便搜一下就行，到处都是，这里简单链两个：</p>
+
+<ul>
+<li><p><a href="http://www.jianshu.com/p/17fdcf17bbb4">Markdown：让书写更美好</a></p></li>
+
+<li><p><a href="http://toutiao.com/i6283461035823202818/">Markdown简明教程：码字效率飞升80%，不懂代码也能装</a></p></li>
+</ul>
+
+<h2 id="1-核心工具">1 核心工具</h2>
+
+<ul>
+<li><strong>笔记工具： <a href="https://www.yinxiang.com/" title="印象笔记">Evernote</a></strong>  知识库的核心</li>
+<li><strong>chrome插件： Markdown Here</strong>  万能的 web 用瑞士军刀，支持在web上的一切文本输入框里使用Markdown 语法，并可进行双向的格式转换</li>
+<li>web工具： <a href="http://dmscode.github.io/Wiki-in-box/" title="Wiki-in-box">wiki-in-box</a>、<a href="http://www.gohugo.io/" title="hugo">hugo</a></li>
+<li>幻灯片工具：Landslide</li>
+<li>万能的文件格式转化工具： <a href="http://www.pandoc.org" title="pandoc">Pandoc</a> （但是这个基本不用额外安装，很多都是软件里直接已经内置）</li>
+<li>md编辑器：
+
+<ul>
+<li><strong><a href="http://www.typora.io/" title="typora">typora</a></strong>：日常主力使用，界面清爽，有大纲视图，插入表格和图片都很方便，导出doc需自行额外安装 <a href="http://www.pandoc.org" title="pandoc">pandoc</a> 包，唯一缺陷不支持流程图（但愿后续版本改进）</li>
+<li>Sublime Text： 安装sublime server插件后，配合wiki-in-box使用</li>
+<li>MarkdownEditor： 开源免费、导出格式齐全、语法支持完整、不过不失、最佳万金油备胎</li>
+<li>MarkEditor：加入了文件管理，界面清爽，功能齐备，操作也许是为了兼顾MacOS显得有点别扭，另外有个大问题是收费软件，试用版会各种不爽</li>
+</ul></li>
+</ul>
+
+<p>看起来不少，其实必须的也就是 <a href="https://www.yinxiang.com/" title="印象笔记">Evernote</a> 、 Markdown Here、加上一个自己最喜欢的md编辑器这三大件即可。</p>
+
+<h2 id="2-私人笔记-evernote-markdown-here">2 私人笔记：Evernote + Markdown Here</h2>
+
+<p><a href="https://www.yinxiang.com/" title="印象笔记">Evernote</a> 目前还没有原生支持 Markdown 语法，虽然说已经加在开发团队的任务列表里了。不过看看隔壁的未知笔记、有道云笔记等等，大象这次的脚步着实慢了。  <a href="https://maxiang.io/" title="马克飞象">马克飞象</a> 就是为了给 <a href="https://www.yinxiang.com/" title="印象笔记">Evernote</a> 外挂 Markdown 语法支持的第三方应用，不过因为是收费应用所以我没怎么用过……</p>
+
+<p>实际上，这个问题可以用万能的 Markdown Here 插件来解决，怎么在Chrome里装这个插件就不提了，无非就是科学上网哪些事。</p>
+
+<ol>
+<li>在 Chrome 里打开 <a href="https://www.yinxiang.com/" title="印象笔记">Evernote</a> 的 web 页面，新建笔记</li>
+<li>按照 Markdown 语法，输入想写的东西（比如本文）</li>
+<li>在编辑区域鼠标右击，选择“<strong>Markdown转换</strong>”</li>
+</ol>
+
+<p><img src="https://baresi.bitbucket.io/img/markdown-here1.jpg" alt="" /></p>
+
+<p>转换后的效果在客户端同步后看起来也是一样的，如果需要转换回来继续编辑，同样的方式重复操作一次即可。</p>
+
+<p><img src="https://baresi.bitbucket.io/img/markdown-here2.jpg" alt="" /></p>
+
+<p>用这样的方式，几乎可以在任何的 web 输入区域使用 Markdown 语法，比如 Gmail 等各种 web 邮箱，比如 <a href="http://user.qzone.qq.com/3464046/" title="QQ空间">QQ空间</a> 。</p>
+
+<h2 id="3-公司文件-word-pdf导出-内网web共享">3 公司文件：Word/PDF导出 + 内网web共享</h2>
+
+<p>### 3.1 Word/PDF导出</p>
+
+<p>这个主要依赖md编辑器，用 MarkdownEditor 或 Typora 均可，导出其它格式也一样，点击相应菜单项即可（或许有快捷键，还未研究）。</p>
+
+<p>1 MarkdownEditor 导出功能：</p>
+
+<p><img src="https://baresi.bitbucket.io/img/MarkdownEditor-export.jpg" alt="" /></p>
+
+<p>2 Typora 导出功能：</p>
+
+<p><img src="https://baresi.bitbucket.io/img/Typora-export.jpg" alt="" /></p>
+
+<h3 id="3-2-内网web共享">3.2 内网web共享</h3>
+
+<p>这个是依赖 <a href="http://dmscode.github.io/Wiki-in-box/" title="Wiki-in-box">wiki-in-box</a> 实现的，足够轻量，随时开关，主要用来记会议记录或者工作列表。有兴趣的直接上  <a href="http://dmscode.github.io/Wiki-in-box/" title="Wiki-in-box">wiki-in-box</a> 主页看下即可，三分钟包教包会。</p>
+
+<h2 id="4-读书笔记-学习笔记-hugo">4 读书笔记/学习笔记： hugo</h2>
+
+<p>参见：</p>
+
+<ul>
+<li><a href="http://baresi.bitbucket.org/2016/05/17/%E4%BD%BF%E7%94%A8-bitbucket--hugo-%E6%9E%84%E5%BB%BA%E5%85%8D%E8%B4%B9-blog/">使用 BitBucket + Hugo 构建免费 Blog</a></li>
+<li><a href="http://baresi.bitbucket.org/2016/05/17/hugo-tips/">Hugo Tips</a></li>
+<li>实际上我现在在 hugo 里发布后，往往还把 md 源代码复制一份贴到 <a href="http://user.qzone.qq.com/3464046/" title="QQ空间">QQ空间</a> 里，然后运行一下 Markdown Here 。</li>
+</ul>
+
+<h2 id="5-最后的堡垒-幻灯片-ppt-流程图-visio">5 最后的堡垒：幻灯片（PPT）、流程图（Visio）</h2>
+
+<p>Markdown 在我工作中的使用，最后的堡垒就是幻灯片（PPT）、流程图（Visio）和脑图：</p>
+
+<ul>
+<li>目前脑图暂时无解，继续靠 <a href="http://naotu.baidu.com/">百度脑图</a> 顶着；</li>
+<li>幻灯片使用LandSlide代替PPT，不用于对外商务演示已经没问题；</li>
+<li>流程图语法略繁琐，但是简单取代 Visio 也未必不可能，尤其是在大段文字中嵌入流程图的时候，在别的文档里嵌入 visio 恐怕比 md 文件里嵌入一段 flow 代码麻烦的多，如果需要修改就更麻烦了。</li>
+</ul>
+
+<h3 id="5-1-幻灯片-landslide">5.1 幻灯片:LandSlide</h3>
+
+<ul>
+<li>自己写的基于bash on win10的安装使用 tips : <a href="http://baresi.bitbucket.org/2016/05/24/landslide--bash-on-win10/">landslide @ bash on win10</a></li>
+<li>参考教程 ： <a href="http://www.jianshu.com/p/e063303317cb">用Markdown写一个极客范儿的PPT</a></li>
+</ul>
+
+<h3 id="5-2-流程图-甘特图">5.2 流程图、甘特图</h3>
+
+<p>自己暂时还没完全研究透，只能说可行性论证没问题：</p>
+
+<ul>
+<li><p><a href="http://blog.csdn.net/aizhaoyu/article/details/44350821">流程图教程</a></p></li>
+
+<li><p><a href="http://toutiao.com/i6283461035823202818/">甘特图教程</a></p></li>
+</ul>
+
+<p>流程图样例</p>
+
+<p><img src="https://baresi.bitbucket.io/img/markdown-flow1.jpg" alt="流程图样例" /></p>
+
+<p>甘特图样例</p>
+
+<p><img src="https://baresi.bitbucket.io/img/markdown-flow2.jpg" alt="甘特图样例" /></p>
+
+</div>
+
+
+  <footer class="container">
+  <div class="container navigation no-print">
+  <h2>Navigation</h2>
+  
+  
+
+    
+    <a class="prev" href="https://baresi48.github.io/2016/05/24/landslide-bash-on-win10/" title=" landslide @ bash on win10 ">
+      Previous
+    </a>
+    
+
+    
+    <a class="next" href="https://baresi48.github.io/2016/09/22/bash-on-win10-tips/" title=" Bash on win10 Tips">
+      Next
+    </a>
+    
+
+  
+
+
+</div>
+
+  
+<div class="container comments">
+  <h2>Comments</h2>
+  
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  (function() {
+    
+    
+    if (window.location.hostname == "localhost")
+      return;
+
+    var dsq = document.createElement('script'); dsq.async = true; dsq.type = 'text/javascript';
+    dsq.src = '//baresi.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+</div>
+
+
+</footer>
+
+</article>
+      <footer id="main-footer" class="container main_footer">
+  
+
+  <div class="container nav foot no-print">
+  
+<a href="https://baresi48.github.io/license">license</a>
+
+
+  <a class="toplink" href="#">back to top</a>
+
+</div>
+
+  <div class="container credits">
+  
+<div class="container footline">
+  
+  code with <i class='fa fa-heart'></i>
+
+
+</div>
+
+
+  
+
+</div>
+
+</footer>
+
+    </main>
+    
+<script type="text/javascript">
+  (function() {
+    
+    
+    if (window.location.hostname == "localhost")
+      return;
+    var dsq = document.createElement('script'); dsq.async = true; dsq.type = 'text/javascript';
+    dsq.src = '//baresi.disqus.com/count.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+  </body>
+</html>
+

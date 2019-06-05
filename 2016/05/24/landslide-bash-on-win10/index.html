@@ -5,34 +5,32 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title> Bash on win10 Tips  &middot; 愿有岁月可回首</title>
+  <title> landslide @ bash on win10   &middot; 愿有岁月可回首</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<meta name="description" content="bash on win10 设置及安装使用各类工具的Tips" />
+<meta name="description" content="在 bash on win10 下安装使用 Landslide , 制作基于Markdown 的幻灯片" />
 
-<meta name="keywords" content="Web, Linux, Markdown, ">
+<meta name="keywords" content="Web, Markdown, ">
 
 
-<meta property="og:title" content=" Bash on win10 Tips  &middot; 愿有岁月可回首 ">
+<meta property="og:title" content=" landslide @ bash on win10   &middot; 愿有岁月可回首 ">
 <meta property="og:site_name" content="愿有岁月可回首"/>
-<meta property="og:url" content="https://baresi48.github.io/2016/09/22/bash-on-win10-tips/" />
+<meta property="og:url" content="https://baresi48.github.io/2016/05/24/landslide-bash-on-win10/" />
 <meta property="og:locale" content="zh-CN">
 
 
 <meta property="og:type" content="article" />
-<meta property="og:description" content="bash on win10 设置及安装使用各类工具的Tips"/>
-<meta property="og:article:published_time" content="2016-09-22T14:05:18&#43;08:00" />
-<meta property="og:article:modified_time" content="2016-09-22T14:05:18&#43;08:00" />
+<meta property="og:description" content="在 bash on win10 下安装使用 Landslide , 制作基于Markdown 的幻灯片"/>
+<meta property="og:article:published_time" content="2016-05-24T22:59:13&#43;08:00" />
+<meta property="og:article:modified_time" content="2016-05-24T22:59:13&#43;08:00" />
 
   
     
 <meta property="og:article:tag" content="Web">
-    
-<meta property="og:article:tag" content="Linux">
     
 <meta property="og:article:tag" content="Markdown">
     
@@ -44,20 +42,20 @@
   {
     "@context": "http://schema.org",
     "@type": "Article",
-    "headline": " Bash on win10 Tips",
+    "headline": " landslide @ bash on win10 ",
     "author": {
       "@type": "Person",
       "name": "HuaZhen"
     },
-    "datePublished": "2016-09-22",
-    "description": "bash on win10 设置及安装使用各类工具的Tips",
-    "wordCount":  89 
+    "datePublished": "2016-05-24",
+    "description": "在 bash on win10 下安装使用 Landslide , 制作基于Markdown 的幻灯片",
+    "wordCount":  44 
   }
 </script>
 
 
 
-<link rel="canonical" href="https://baresi48.github.io/2016/09/22/bash-on-win10-tips/" />
+<link rel="canonical" href="https://baresi48.github.io/2016/05/24/landslide-bash-on-win10/" />
 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://baresi48.github.io/touch-icon-144-precomposed.png">
 <link href="https://baresi48.github.io/favicon.png" rel="icon">
@@ -172,21 +170,19 @@
 
 <article id="main-content" class="container main_content single">
   <header class="container hat">
-  <h1> Bash on win10 Tips
+  <h1> landslide @ bash on win10 
 </h1>
 
   <div class="metas">
-<time datetime="2016-09-22">22 Sep, 2016</time>
+<time datetime="2016-05-24">24 May, 2016</time>
 
 
   
   &middot; Read in about 1 min
-  &middot; (89 Words)
+  &middot; (44 Words)
   <br>
   
 <a class="label" href="https://baresi48.github.io/tags/web">Web</a>
-
-<a class="label" href="https://baresi48.github.io/tags/linux">Linux</a>
 
 <a class="label" href="https://baresi48.github.io/tags/markdown">Markdown</a>
 
@@ -199,68 +195,50 @@
   <div class="container content">
   
 
-<h2 id="1-bash-on-win10-setting">1 Bash on win10 setting</h2>
+<h2 id="1-bash-on-win10">1 bash on win10</h2>
 
 <p>注： 不建议改官方的apt源，一开始习惯性加了国内的源，结果各种出错。后来把/etc/apt/sources.list改回默认文件就又正常了。</p>
-
-<h3 id="1-1-cmder-bash">1.1 Cmder + Bash：</h3>
-
-<p>Cmder启动命令行设置为：</p>
-
-<pre><code class="language-shell">%windir%\system32\bash.exe ~ -cur_console:p1
-</code></pre>
-
-<h3 id="1-2-gcc">1.2 Gcc</h3>
 
 <ul>
 <li>默认python 2.7.4</li>
 <li>有python3.4</li>
-<li>无gcc
-<code>sudo apt-get install gcc</code>
-&gt; 默认为gcc 4.8.4</li>
+
+<li><p>无gcc</p>
+
+<pre><code>sudo apt-get install gcc
+</code></pre></li>
 </ul>
 
-<h3 id="1-3-安装pip">1.3 安装pip</h3>
+<blockquote>
+<p>默认为gcc 4.8.4</p>
+</blockquote>
 
-<pre><code class="language-sudo">
+<h2 id="2-python-tips">2 python tips</h2>
 
-## 2 LocalNote
+<h3 id="安装pip">安装pip</h3>
 
-说明：基于命令行的Evernote本地客户端，支持win、Linux、MacOs。**支持以Markdown格式写笔记**。
-
-### 2.1 Install
-
-```shell
-# sudo apt-get install python-lxml
-# sudo pip install localnote
-</code></pre>
-
-<h3 id="2-2">2.2</h3>
-
-<pre><code class="language-shell">$ localnote init #初始化当前目录为空目录
-$ localnote notebook #设置同步到localnote的笔记本
-$ localnote status #查看笔记状态
-$ localnote pull #下载服务器笔记为本地文件
-$ localnote push #上传本地笔记到服务器
+<pre><code>sudo apt-get install python-pip
 </code></pre>
 
 <h2 id="3-landslide">3 Landslide</h2>
 
-<p>说明：基于Markdown格式文件生成演示用幻灯片。</p>
-
 <h3 id="3-1-安装landslide">3.1 安装landslide</h3>
 
-<p><code>sudo pip install landslide</code></p>
+<pre><code>sudo pip install landslide
+</code></pre>
 
-<h3 id="3-2-生成演示文件">3.2 生成演示文件 </h3>
+<h3 id="3-2-生成演示文件">3.2 生成演示文件</h3>
 
-<p><code>landslide file.md -i -o &gt; name_you_like.html</code></p>
+<pre><code>landslide file.md -i -o &gt; name_you_like.html
+</code></pre>
 
 <h3 id="3-3-参考教程">3.3 参考教程</h3>
 
 <ul>
 <li><a href="http://www.jianshu.com/p/e063303317cb">用Markdown写一个极客范儿的PPT</a></li>
 </ul>
+
+<p>​</p>
 
 </div>
 
@@ -272,13 +250,13 @@ $ localnote push #上传本地笔记到服务器
   
 
     
-    <a class="prev" href="https://baresi48.github.io/2016/05/24/%E5%9F%BA%E4%BA%8Eevernote-markdown%E7%9A%84%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E6%96%B9%E6%A1%88/" title="基于Evernote &#43; Markdown的个人信息管理方案">
+    <a class="prev" href="https://baresi48.github.io/2016/05/19/%E5%BE%90%E9%97%BB%E8%8F%A0%E8%90%9D%E4%B8%8E%E8%A1%8C%E4%B8%9A%E9%87%91%E8%9E%8D%E6%9C%8D%E5%8A%A1/" title="徐闻菠萝与行业金融服务">
       Previous
     </a>
     
 
     
-    <a class="next" href="https://baresi48.github.io/2017/04/13/%E8%BD%AC%E5%B8%96%E8%B5%98%E5%A9%BF%E4%BA%8E%E4%B8%96%E9%81%93by-%E6%84%A4%E6%80%92%E7%9A%84%E9%A6%99%E8%95%89/" title="【转帖】《赘婿》于世道（by 愤怒的香蕉）">
+    <a class="next" href="https://baresi48.github.io/2016/05/24/%E5%9F%BA%E4%BA%8Eevernote-markdown%E7%9A%84%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E6%96%B9%E6%A1%88/" title="基于Evernote &#43; Markdown的个人信息管理方案">
       Next
     </a>
     
