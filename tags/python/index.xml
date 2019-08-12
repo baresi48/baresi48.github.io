@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on 愿有岁月可回首</title>
+    <link>https://baresi48.github.io/tags/python/</link>
+    <description>Recent content in Python on 愿有岁月可回首</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>hua_zhen@foxmail.com (HuaZhen)</managingEditor>
+    <webMaster>hua_zhen@foxmail.com (HuaZhen)</webMaster>
+    <lastBuildDate>Mon, 12 Aug 2019 11:01:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://baresi48.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Python: 转换汉字为拼图</title>
+      <link>https://baresi48.github.io/2019/08/12/python-%E8%BD%AC%E6%8D%A2%E6%B1%89%E5%AD%97%E4%B8%BA%E6%8B%BC%E5%9B%BE/</link>
+      <pubDate>Mon, 12 Aug 2019 11:01:00 +0800</pubDate>
+      <author>hua_zhen@foxmail.com (HuaZhen)</author>
+      <guid>https://baresi48.github.io/2019/08/12/python-%E8%BD%AC%E6%8D%A2%E6%B1%89%E5%AD%97%E4%B8%BA%E6%8B%BC%E5%9B%BE/</guid>
+      <description>代码 #!/usr/bin/python3 # coding=utf-8 __author__ = &#39;HuaZhen&#39; __date__ = &#39;2019/8/8&#39; # 中文转换16*16点阵（依赖HZK16汉字库） import binascii from PIL import Image import random import os KEYS = [0x80, 0x40, 0x20, 0x10, 0x08, 0x04, 0x02, 0x01] #初始化16*16的点阵位置，每个汉字需要16*16=256个点来表示 rect_list = [] * 16 for i in range(16): rect_list.append([] * 16) #具体文字（只支持单个汉字） text = &amp;quot;爱&amp;quot; #获取中文的编码 gb2312 = text.encode(&#39;gb2312&#39;) hex_str = binascii.b2a_hex(gb2312) result = str(hex_str, encoding=&#39;utf-8&#39;) #根据编码计算文字在汉字库中的位置 area = eval(&#39;0x&#39; + result[:2]) - 0xA0 index = eval(&#39;0x&#39; + result[2:]) - 0xA0 offset = (94 * (area-1) + (index-1)) * 32 font_rect = None #读取HZK16汉字库文件中文字数据 with open(&amp;quot;HZK16&amp;quot;, &amp;quot;rb&amp;quot;) as f: f.</description>
+    </item>
+    
+  </channel>
+</rss>
